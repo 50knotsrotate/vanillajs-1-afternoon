@@ -30,7 +30,7 @@ function play(val) {
     if (game.filter(x => x).length === 9 ) { 
         alert('No winner')
     }
-
+    
     for (let i = 0; i < game.length; i += 3) { 
         if ((game[i] == game[i + 1] && game[i] == game[i + 2]) && game[i]) { 
             alert(game[i] + ' is the winner!')
